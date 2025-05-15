@@ -4,7 +4,7 @@ import { parse } from 'csv-parse';
 import { v4 as uuidv4 } from 'uuid';
 
 // @ts-ignore
-import Book from '../models/Book.js';
+import Book from '../../src/models/Book.js';
 
 export const getAllBooks = async (req: Request, res: Response) => {
   try {
